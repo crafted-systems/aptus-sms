@@ -1,3 +1,3 @@
-# crafted-systems/tilil-sms
+# crafted-systems/aptus-sms
 
-Tilil SMS API
+Aptus SMS API
