@@ -1,0 +1,27 @@
+{
+    "name": "crafted-systems/aptus-sms",
+    "description": "Aptus SMS API - Tanzania",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.*"
+    },
+    "author": {
+        "name": "Crafted Systems",
+        "email": "hello@crafted.co.ke"
+    },
+    "autoload": {
+        "psr-4": {
+            "CraftedSystems\\Aptus\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CraftedSystems\\Aptus\\AptusSMSServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
